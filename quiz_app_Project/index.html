@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz">
+            <!--For Question-->
+            <div id="question"></div>
+            <!--options-->
+            <div class="choices">
+                <button class="choice" onclick="selectanswar(0)">choice 1</button>
+                <button class="choice" onclick="selectanswar(1)">choice 2</button>
+                <button class="choice" onclick="selectanswar(2)">choice 3</button>
+                <button class="choice" onclick="selectanswar(3)">choice 4</button>
+            </div>
+            <div id="nextButton" onclick="nextQuestion()">Next Question</div>
+            <div id="scoreContainer"></div>
+        </div>
+    </div>
+
+
+    <!--JavaScript-->
+
+    <script src="index.js"></script>
+</body>
+</html>
